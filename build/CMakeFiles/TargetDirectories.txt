@@ -1,0 +1,14 @@
+D:/programming/cpp/google_tests_project/build/CMakeFiles/my_project.dir
+D:/programming/cpp/google_tests_project/build/CMakeFiles/INSTALL.dir
+D:/programming/cpp/google_tests_project/build/CMakeFiles/ALL_BUILD.dir
+D:/programming/cpp/google_tests_project/build/CMakeFiles/ZERO_CHECK.dir
+D:/programming/cpp/google_tests_project/build/googletest/CMakeFiles/INSTALL.dir
+D:/programming/cpp/google_tests_project/build/googletest/CMakeFiles/ALL_BUILD.dir
+D:/programming/cpp/google_tests_project/build/googletest/googlemock/CMakeFiles/gmock.dir
+D:/programming/cpp/google_tests_project/build/googletest/googlemock/CMakeFiles/gmock_main.dir
+D:/programming/cpp/google_tests_project/build/googletest/googlemock/CMakeFiles/INSTALL.dir
+D:/programming/cpp/google_tests_project/build/googletest/googlemock/CMakeFiles/ALL_BUILD.dir
+D:/programming/cpp/google_tests_project/build/googletest/googletest/CMakeFiles/gtest.dir
+D:/programming/cpp/google_tests_project/build/googletest/googletest/CMakeFiles/gtest_main.dir
+D:/programming/cpp/google_tests_project/build/googletest/googletest/CMakeFiles/INSTALL.dir
+D:/programming/cpp/google_tests_project/build/googletest/googletest/CMakeFiles/ALL_BUILD.dir
