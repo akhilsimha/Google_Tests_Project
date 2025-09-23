@@ -26,4 +26,6 @@ target_link_libraries(my_project gtest gtest_main)
 # Make GoogleTest use shared runtime (MD/MDd) to match the project
 
 #PC: On MSVC, it forces googletest to build with /MD (dynamic runtime) instead of /MT (static runtime).
-set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+if (MSVC)
+    set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+endif()

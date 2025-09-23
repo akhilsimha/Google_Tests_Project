@@ -28,10 +28,27 @@ make
 mkdir build  
 cd build  
 
-Note: Configures the project and generates the build system. Only needed the first time, or if there is a change in CMakeLists.txt or the project structure.
+Note: Configures the project and generates the build system. Only needed the first time, or if there is a change in CMakeLists.txt or the project structure.  
 cmake ..  
 
 Note: Compiles the code. Only rebuilds what is changed.   
+```
 cmake --build . --config Debug  
 cd Debug  
 my_project.exe  
+```
+
+
+## Changing compiler
+
+Check if MinGW is installed:
+`g++ --version`
+
+Delete the build directory if it exists.
+
+```
+mkdir build
+cd build
+cmake .. -G "MinGW Makefiles" -DCMAKE_CXX_COMPILER=g++
+mingw32-make
+```
